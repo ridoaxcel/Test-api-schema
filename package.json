@@ -1,0 +1,20 @@
+{
+  "name": "belajar-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "ajv": "^8.13.0",
+    "chai": "^5.1.0",
+    "chai-json-schema-ajv": "^5.2.4",
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
+  }
+}
